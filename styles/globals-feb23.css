@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "aftika-light";
+  font-size: 15px;
+  scroll-behavior: smooth !important;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Guthen Bloots Personal Use';
+    /* src: url('https://fonts.cdnfonts.com/css/guthen-bloots-personal-use'); */
+    src: url('./fonts/guthen.ttf');
+  }
+}
+
+@font-face {
+  font-family: "aftika-extra-light";
+  src: url("./fonts/aftika-extra-light.otf");
+}
+
+@font-face {
+  font-family: "aftika-regular";
+  src: url("./fonts/aftika-regular.otf");
+}
+
+@font-face {
+  font-family: "aftika-light";
+  src: url("./fonts/aftika-light.otf");
+}
+
+@font-face {
+  font-family: "aftika-semibold";
+  src: url("./fonts/aftika-semiBold.otf");
+}
+
+@font-face {
+  font-family: "aftika-bold";
+  src: url("./fonts/aftika-bold.otf");
+}
+
+@font-face {
+  font-family: "aftika-extraBold";
+  src: url("./fonts/aftika-extraBold.otf");
+}
+
+
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
+.carousel .control-dots {
+  top: 0rem;
+  left: 40rem;
+}
+
+/* Team Section */
+
+.directors-img {
+  padding-top: 250px;
+}
+
+.team-sec-heading{
+  color: #0039ff;
+  padding: 55px 90px;
+  font-weight: 900;
+  font-size: 3.2rem;
+}
+
+.dir-des-area{
+  margin-top: 215px;
+}
+
+.dir-title{
+  color: #0039ff;
+  font-size: 3rem;
+}
+
+.dir-desig{
+  color: #0039ff;
+  font-size: 1.5rem;
+}
+
+.dir-descri{
+  padding-bottom: 25px;
+  font-size: .8rem;
+}
+
+.dir-img1{
+  width: 50%;
+}
+
+.team-area{
+  margin-top: 226px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+  .directors-img {
+      padding-top: 50px;
+    }
+
+    .team-sec-heading{
+      padding: 0px 30px;
+      font-size: 1.5rem;
+    }
+
+    .dir-img1{
+      width: 100%;
+      height: 46%;
+    }
+
+    .team-area{
+      margin-top: 0px;
+    }
+
+    .dir-title{
+      font-size: 1.5rem;
+      padding-bottom: 10px;
+    }
+
+    .dir-desig{
+      font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  .directors-img {
+      padding-top: 50px;
+    }
+
+    .team-area{
+      margin-top: 0px;
+    }
+
+    .team-sec-heading{
+      padding: 0px 10px;
+      font-size: 2.5rem;
+    }
+
+    .dir-title{
+      font-size: 2.4rem;
+      padding-bottom: 10px;
+    }
+
+    .dir-desig{
+      font-size: 1.4rem;
+    }
+
+    .dir-img1{
+      width: 100%;
+      height: 45%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .directors-img {
+      padding-top: 200px;
+    }
+
+    .dir-img1{
+      height: 100%;
+    }
+
+    .dir-title{
+      font-size: 2.1rem;
+    }
+}

@@ -1,0 +1,20 @@
+.markdownWrapper h1,
+.markdownWrapper h2,
+.markdownWrapper h3,
+.markdownWrapper h4,
+.markdownWrapper h5,
+.markdownWrapper h6 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.markdownWrapper li {
+    list-style: decimal;
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+.markdownWrapper p {
+    margin-top: .7rem;
+}

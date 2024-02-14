@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "aftika-light";
+  font-size: 15px;
+  scroll-behavior: smooth !important;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Guthen Bloots Personal Use';
+    /* src: url('https://fonts.cdnfonts.com/css/guthen-bloots-personal-use'); */
+    src: url('./fonts/guthen.ttf');
+  }
+}
+
+@font-face {
+  font-family: "aftika-extra-light";
+  src: url("./fonts/aftika-extra-light.otf");
+}
+
+@font-face {
+  font-family: "aftika-regular";
+  src: url("./fonts/aftika-regular.otf");
+}
+
+@font-face {
+  font-family: "aftika-light";
+  src: url("./fonts/aftika-light.otf");
+}
+
+@font-face {
+  font-family: "aftika-semibold";
+  src: url("./fonts/aftika-semiBold.otf");
+}
+
+@font-face {
+  font-family: "aftika-bold";
+  src: url("./fonts/aftika-bold.otf");
+}
+
+@font-face {
+  font-family: "aftika-extraBold";
+  src: url("./fonts/aftika-extraBold.otf");
+}
+
+
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
+.carousel .control-dots {
+  top: 0rem;
+  left: 40rem;
+}

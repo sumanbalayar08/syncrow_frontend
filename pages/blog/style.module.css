@@ -1,0 +1,46 @@
+.markdownWrapper h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "aftika-bold";
+}
+
+.markdownWrapper h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "aftika-bold";
+}
+
+.markdownWrapper h3 {
+    font-size: 1.17rem;
+    font-weight: bold;
+    font-family: "aftika-bold";
+}
+
+.markdownWrapper h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "aftika-bold";
+}
+
+.markdownWrapper h5 {
+    font-size: .83rem;
+    font-weight: bold;
+    font-family: "aftika-bold";
+}
+
+.markdownWrapper h6 {
+    font-size: .67rem;
+}
+
+.markdownWrapper ul {
+    list-style: disc inside;
+}
+
+.markdownWrapper ol {
+    list-style: numeric inside;
+}
+
+.markdownWrapper a {
+    text-decoration: underline;
+    color: #023DFE;
+}

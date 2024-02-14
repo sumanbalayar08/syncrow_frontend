@@ -1,0 +1,23 @@
+.carousel .control-dots .dot {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin-bottom: 500px;
+}
+
+
+.carousel .control-dots {
+    position: relative;
+    top: 83%;
+    left: 85%; 
+    width:auto !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .carousel .control-dots {
+        position: relative;
+        top: 89%;
+        left: 45%
+    }
+}
