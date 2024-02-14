@@ -191,7 +191,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="my-4 md:flex items-center justify-between">
-        <p className="text-xs font-semibold text-center">ALL RIGHTS RESERVED</p>
+        <p className="text-xs font-semibold text-center">ALL RIGHTS RESERVED 2024</p>
         <div className="md:flex gap-5 text-center items-center">
           <p className="my-3">FOLLOW US ON</p>
           <a
